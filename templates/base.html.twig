@@ -84,10 +84,10 @@
                     &#9776;
                 </button>
                 <div class="homepage-nav-links" id="nav-links">
-                    <a href="#">À propos</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Confidentialité</a>
-                </div>
+                <a href="{{ path('app_about') }}">À propos</a>
+                <a href="{{ path('app_contact') }}">Contact</a>
+                <a href="{{ path('app_privacy') }}">Confidentialité</a>
+            </div>
             </nav>
         </header>
     {% endif %}

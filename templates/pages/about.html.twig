@@ -1,0 +1,17 @@
+{# templates/pages/about.html.twig #}
+
+{% extends 'base.html.twig' %} {# Cette page hérite de ton layout de base #}
+
+{% block title %}À propos de Mon Collectionneur{% endblock %}
+
+{% block body %}
+    {# Ton contenu pour la page "À propos" ici, avec tes classes de style existantes ou du style inline #}
+    <div class="container my-5">
+        <h1 class="display-4 text-center mb-4">À propos de Mon Collectionneur</h1>
+        <div class="bg-white p-4 shadow-sm rounded">
+            <p>Mon Collectionneur est une application web dédiée à l'organisation de vos collections personnelles. Que vous soyez un passionné de livres, de vinyles, de jeux vidéo ou de tout autre objet, notre plateforme vous aide à cataloguer, gérer et explorer vos trésors.</p>
+            <p>Notre mission est de fournir un outil simple, intuitif et puissant pour les collectionneurs, leur permettant de suivre leurs acquisitions, de retrouver facilement leurs objets et de partager leur passion.</p>
+            <p>Développé avec Symfony, ce projet vise à démontrer des compétences en développement web moderne et à offrir une expérience utilisateur fluide.</p>
+        </div>
+    </div>
+{% endblock %}
